@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #fff;
+  background: #232323;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #7a6960;
+  color: #FFD1D1;
   text-decoration: none;
 }
 
@@ -129,21 +129,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #eb5d1e;
+  color: #FFD1D1;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #eb5d1e;
-  color: #fff;
+  background: #FFD1D1;
+  color: #232323;
   border-radius: 50px;
   margin: 0 15px;
   padding: 10px 25px;
 }
 
 .nav-menu .get-started a:hover {
-  background: #ee7843;
-  color: #fff;
+  background: #232323;
+  color: #FFD1D1;
 }
 
 .nav-menu .drop-down ul {
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .mobile-nav .get-started a {
   background: #eb5d1e;
-  color: #fff;
+  color: #ABB0B5;
   border-radius: 50px;
   margin: 15px;
   padding: 10px 25px;
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .mobile-nav .get-started a:hover {
   background: #ee7843;
-  color: #fff;
+  color: #ABB0B5;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero {
   width: 100%;
   height: 70vh;
-  background: #fef8f5;
+  background: #FCFCFC;
   border-bottom: 2px solid #fcebe3;
   margin: 72px 0 -72px 0;
 }
@@ -373,8 +373,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
-  background: #eb5d1e;
+  color: #ABB0B5;
+  background: #FFE056;
 }
 
 #hero .btn-get-started:hover {
