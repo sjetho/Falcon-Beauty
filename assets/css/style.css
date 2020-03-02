@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #eb5d1e;
-  color: #fff;
+  background: #dcb365;
+  color: #000000;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #ee7843;
+  color: #000000;
+  background: #dcb365;
   transition: background 0.2s ease-in-out;
 }
 
@@ -373,8 +373,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  color: #ABB0B5;
-  background: #FFE056;
+  color: #000000;
+  background: #dcb365;
 }
 
 #hero .btn-get-started:hover {
@@ -486,7 +486,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: #eb5d1e;
+  background: #FFD1D1;
   bottom: 0;
   left: calc(50% - 30px);
 }
@@ -533,6 +533,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.icon i{
+  color: #FFD1D1;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -548,14 +552,14 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-5px);
-  border-color: #ef7f4d;
+  border-color: #FFD1D1;
 }
 
 .services .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
-  color: #ef7f4d;
+  color: #dcb365;
 }
 
 .services .title {
@@ -602,7 +606,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #eb5d1e;
+  color: #FFD1D1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -619,7 +623,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(255, 209, 209, .6);
   position: absolute;
   left: 100%;
   right: 0;
